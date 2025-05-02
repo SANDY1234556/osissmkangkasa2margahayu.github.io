@@ -1,0 +1,221 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Tentang Kami</title>
+      <style>
+        body {
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #f7f9fc;
+          color: #333;
+        }
+        header {
+          background-color: #004aad;
+          color: white;
+          padding: 30px 20px;
+          text-align: center;
+          box-shadow: 0 2px 8px rgba(0, 74, 173, 0.3);
+        }
+        header h1 {
+          margin: 0;
+          font-weight: 700;
+          font-size: 2.8rem;
+          letter-spacing: 2px;
+        }
+        main {
+          max-width: 1200px;
+          margin: 40px auto;
+          padding: 0 20px 60px;
+        }
+        .team-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+          gap: 30px;
+          justify-items: center;
+        }
+        .team-member {
+          background: white;
+          border-radius: 12px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+          width: 180px;
+          text-align: center;
+          padding: 20px;
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .team-member:hover {
+          transform: translateY(-8px);
+          box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .member-photo {
+          width: 120px;
+          height: 120px;
+          border-radius: 50%;
+          object-fit: cover;
+          margin-bottom: 15px;
+          border: 3px solid #004aad;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        }
+        .member-name {
+          font-weight: 600;
+          font-size: 1.1rem;
+          color: #004aad;
+          margin: 0 0 6px 0;
+        }
+        .member-role {
+          font-size: 0.9rem;
+          color: #666;
+          margin: 0;
+          font-style: italic;
+        }
+        @media (max-width: 480px) {
+          header h1 {
+            font-size: 2rem;
+          }
+          .team-member {
+            width: 100%;
+          }
+          .member-photo {
+            width: 100px;
+            height: 100px;
+          }
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>Pengurus OSIS</h1>
+      </header>
+      <main>
+        <div class="team-grid">
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Sabil Intiana</p>
+            <p class="member-role">Ketua OSIS</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src=""/>
+            <p class="member-name">Sandy Maulana</p>
+            <p class="member-role">Wakil Ketua</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Rika Amelia</p>
+            <p class="member-role">Seksi Bidang 1</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Alia nurusyifa</p>
+            <p class="member-role">Seksi Bidang 2 & 3</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Reni</p>
+            <p class="member-role">Seksi Bidang 4</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Juwita Adelia</p>
+            <p class="member-role">Seksi Bidang 5</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Zahra</p>
+            <p class="member-role">Seksi Bidang 6</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Siti Nurlelah</p>
+            <p class="member-role">Seksi Bidang 7 & 8</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Alvi Pajrin</p>
+            <p class="member-role">Seksi Bidang 9</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Siska Kamilah</p>
+            <p class="member-role">Seksi Bidang 10</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Andre</p>
+            <p class="member-role">Pembina OSIS</p>
+          </div>
+          <div class="team-member">
+            <img class="member-photo" src="" />
+            <p class="member-name">Syathori</p>
+            <p class="member-role">Wakasek Kesiswaan</p>
+          </div>
+        </div>
+      </main>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            
+            .container {
+                width: 80%;
+                margin: auto;
+                overflow: hidden;
+                padding: 20px;
+                background: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            li {
+                margin: 10px 0;
+            }
+            footer {
+                text-align: center;
+                padding: 20px 0;
+                background: #007BFF;
+                color: #fff;
+                position: relative;
+                bottom: 0;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <div class="container">
+        <h2>Siapa Kita</h2>
+        <p>Selamat Datang Di <strong>Website OSIS SMK ANGKASA 2 MARGAHAYU</strong>,Bla bla bla <strong>bla bla</strong>, blaa blaaa blaaa </strong> </p>
+    
+        <h2>Misi</h2>
+        <p>sadfasfdf</p>
+    
+        <h2>Visi</h2>
+        <p>sfsdfsdgfdsf</p>
+    
+        <h2>Proker</h2>
+        <ul>
+            <li><strong>blaa blaa</strong>: blaa blaa</li>
+            <li><strong>blaa blaa</strong>: bllaa blaa</li>
+            <li><strong>blaa blaa</strong>: blaa blaa</li>
+        </ul>
+    
+        <h2>Tim Kami</h2>
+        <p>sadfasfadsfaf</p>
+    </div>
+    
+    <footer>
+        <p>&copy; OSIS SMK ANGKASA 2 MARGAHAYU 2024-2025</p>
+    </footer>
+    
+    </body>
+    </html>
+    
